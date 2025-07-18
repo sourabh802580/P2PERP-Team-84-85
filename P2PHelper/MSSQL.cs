@@ -12,7 +12,7 @@ namespace P2PHelper
     public class MSSQL
     {
 
-        string ConnString = ConfigurationManager.ConnectionStrings["UserDB"].ConnectionString;
+        string ConnString = ConfigurationManager.ConnectionStrings["P2PERP"].ConnectionString;
 
         public async Task<DataSet> ExecuteStoredProcedureReturnDS(string SPName, Dictionary<string, string> InPara)
         {
