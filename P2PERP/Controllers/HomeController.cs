@@ -15,8 +15,8 @@ namespace P2PERP.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "Your application description page 2.";
+            ViewBag.Message = "Your application description page 2.";
             return View();
         }
 
